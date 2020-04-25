@@ -6,6 +6,27 @@ footer  {
     padding-top: 20px;
 }
 
+.news h2 {
+  text-align: center;
+  padding: 20px 20px;
+  font-style: oblique;
+}
+
+.news h3 {
+  text-align: center;
+  font-style: oblique;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.news p {
+  text-align: center;
+  text-overflow: ellipsis;
+  font-size: 15px;
+  vertical-align: top;
+  overflow: auto;
+}
+
 ul.news__list{
   display: flex;
   flex-wrap: wrap;
@@ -16,12 +37,12 @@ ul.news__list{
 ul.news__list li{
     display: grid;
     grid-template-columns: 300px;
+    grid-template-rows: 150px 250px 150px;
     border-top-style: solid;
     border-top-color: blue;
     border-radius: 10px;
     box-shadow: 1px 3px 4px gray;
-    height: 500px;
-
+    height: 550px;
 }
 
 .news__list img{
